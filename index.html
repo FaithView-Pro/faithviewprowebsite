@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FaithView Pro — Scripture on screen, the moment it's spoken</title>
+  <meta name="description" content="FaithView Pro is the offline-first church presentation app with real-time AI scripture detection. Built for volunteers, worship leaders, pastors, and tech teams. $100/church/year.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231DB954'/%3E%3Ctext x='32' y='45' font-family='Arial,sans-serif' font-size='36' font-weight='bold' fill='%23ffffff' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <div class="announcement">
+    Early access — Standard tier is <strong>$100/church/year</strong> for pilot congregations. <a href="pricing.html">See pricing</a>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="FaithView Pro home">
+        <svg class="brand-mark" width="34" height="34" viewBox="0 0 64 64" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#1DB954"></rect>
+          <text x="32" y="45" font-family="Manrope, Arial, sans-serif" font-size="36" font-weight="800" fill="#ffffff" text-anchor="middle">F</text>
+        </svg>
+        <span class="brand-name">FaithView <em>Pro</em></span>
+      </a>
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="features.html">Features</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a href="support.html">Support</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a class="nav-signin" href="#">My Account</a>
+        <a class="btn btn-primary btn-sm" href="download.html">Start Free Trial</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="download.html">Download</a>
+      <a href="support.html">Support</a>
+      <a href="#">My Account</a>
+      <a class="btn btn-primary" href="download.html">Start Free Trial</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-badge"><span class="pulse"></span> Real-time AI scripture detection</div>
+          <h1>Scripture on screen,<br>the <span class="accent">moment it's spoken.</span></h1>
+          <p class="hero-sub">FaithView Pro listens during the sermon, recognizes every Bible reference, and puts the verse on screen automatically — offline-first, and simple enough that a first-time volunteer can run it confidently.</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="download.html">
+              Download FaithView Pro
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"></path></svg>
+            </a>
+            <a class="btn btn-outline" href="pricing.html">See Pricing</a>
+          </div>
+          <div class="hero-trust">
+            <span class="os-chip">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 5.6 10.4 4.5v7.1H3V5.6Zm8.5-1.3L21 3v8.6h-9.5V4.3ZM3 13h7.4v7.1L3 19V13Zm8.5 0H21V21l-9.5-1.3V13Z"></path></svg>
+              Windows — available now
+            </span>
+            <span class="os-chip soon">macOS <em>Coming soon</em></span>
+            <span class="sep">·</span>
+            <span>No credit card required</span>
+            <span class="sep">·</span>
+            <span>30-day free trial</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-section">
+      <div class="service-content">
+        <div class="service-content__media">
+          <img
+            src="assets/img/faithview-pro-macbook-mockup.png"
+            alt="FaithView Pro running on a laptop and phone"
+            class="service-content__image"
+          />
+        </div>
+
+        <div class="service-content__column">
+          <h2>
+            Run your entire
+            <br />
+            service in one place
+          </h2>
+
+          <p>
+            Build your schedule, edit slides, and control your
+            output in one place for consistent, reliable
+            performance every week.
+          </p>
+
+          <a href="#features" class="service-content__button">
+            View All Features
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="workspace">
+      <div class="container">
+        <div class="center reveal">
+          <span class="eyebrow">One console, one service</span>
+          <h2 class="section-title">Run your entire service in one place</h2>
+          <p class="section-lead">Songs, scriptures, and the live detection queue sit next to your projector output — so the person in the booth sees what's on screen without turning around. <a href="features.html">View all features →</a></p>
+        </div>
+        <div class="workspace-mock reveal">
+          <div class="mock-window">
+            <div class="mock-titlebar">
+              <span class="dots"><span></span><span></span><span></span></span>
+              FaithView Pro — Operator Console
+              <span class="live-tag">Listening</span>
+            </div>
+            <div class="console-body">
+              <div class="mock-pane">
+                <div class="mock-pane-title">Service Schedule</div>
+                <div class="sched-item done"><span class="num">1</span> Welcome &amp; Call to Worship</div>
+                <div class="sched-item live"><span class="num">2</span> Worship Set — 4 songs</div>
+                <div class="sched-item"><span class="num">3</span> Sermon — "The Word Made Flesh"</div>
+                <div class="sched-item"><span class="num">4</span> Benediction</div>
+              </div>
+              <div class="mock-pane">
+                <div class="mock-pane-title">Live Scripture Detection</div>
+                <div class="feed-item">
+                  <div class="heard">Heard: "…for <b>God so loved the world</b>, that he gave his only begotten Son…"</div>
+                  <div class="feed-result">
+                    <span class="feed-verse">John 3:16 <small>KJV — For God so loved the world…</small></span>
+                    <span class="feed-conf">98% match</span>
+                    <span class="feed-status">On screen</span>
+                  </div>
+                </div>
+                <div class="feed-item">
+                  <div class="heard">Heard: "…as it is written in <b>Romans ten</b>…"</div>
+                  <div class="feed-result">
+                    <span class="feed-verse">Romans 10:17 <small>KJV — So then faith cometh by hearing…</small></span>
+                    <span class="feed-conf">96% match</span>
+                    <span class="feed-status">On screen</span>
+                  </div>
+                </div>
+                <div class="feed-item pending">
+                  <div class="heard">Listening for the next reference…</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mock-window">
+            <div class="mock-titlebar">
+              <span class="dots"><span></span><span></span><span></span></span>
+              Projector Output — Screen 2
+            </div>
+            <div class="projector-slide">
+              <p class="verse">"For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life."</p>
+              <p class="ref">JOHN 3:16 — KJV</p>
+              <span class="tag">FaithView Pro</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="showcase reveal">
+          <div>
+            <span class="eyebrow">The differentiator</span>
+            <h2>It hears the reference.<br>It finds the verse.</h2>
+            <p>No competitor does this. While the sermon is being preached, FaithView Pro listens for scripture — a quoted passage or a spoken reference — and matches it against 11 Bible translations, including Luganda, Runyankole, and Swahili.</p>
+            <ul class="showcase-list">
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1DB954" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Quoted text or spoken references — both detected</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1DB954" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Fast and accurate — verified before it ever hits the screen</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1DB954" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> The operator approves or dismisses with one click</li>
+            </ul>
+          </div>
+          <div class="showcase-visual">
+            <div class="detect-mock">
+              <div class="detect-mock-head"><span class="pulse"></span> Listening — Sunday service <span class="time">10:42 AM</span></div>
+              <div class="equalizer" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+              <p class="detect-transcript">"…for <b>God so loved the world</b>, that he gave his only begotten Son…"</p>
+              <div class="detect-match">
+                <div class="detect-match-top">
+                  <span class="detect-match-verse">John 3:16 — KJV<small>For God so loved the world, that he gave…</small></span>
+                  <span class="detect-conf feed-conf">98% match</span>
+                </div>
+                <span class="detect-sent"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Sent to projector</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="showcase flip reveal">
+          <div class="showcase-visual">
+            <div class="outputs-mock">
+              <div class="output-tile">
+                <div class="screen">JOHN 3:16 — KJV</div>
+                <div class="meta"><b>Projector output</b><span>Congregation screen — full slide</span></div>
+                <span class="badge-live">Live</span>
+              </div>
+              <div class="output-tile">
+                <div class="screen confidence">Next: Song 3 — Verse 1</div>
+                <div class="meta"><b>Confidence monitor</b><span>What's next, for the platform team</span></div>
+                <span class="badge-live">Live</span>
+              </div>
+              <div class="output-tile">
+                <div class="screen ndi">NDI STREAM 1080p</div>
+                <div class="meta"><b>NDI streaming output</b><span>Lower-thirds straight to your encoder</span></div>
+                <span class="badge-live is-blue">NDI</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <span class="eyebrow is-blue">Output &amp; displays</span>
+            <h2>One machine.<br>Every screen in the room.</h2>
+            <p>Projector, confidence monitor, and stream — all driven from a single Windows computer, no extra hardware required. NDI output feeds your livestream with clean lower-thirds, while the congregation sees exactly what it should.</p>
+            <ul class="showcase-list">
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#007ACC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Multi-monitor output for projector and stage</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#007ACC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Native NDI output for streaming and broadcast</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#007ACC" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Themes style every output — slides and lower-thirds alike</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="features">
+      <div class="container">
+        <div class="center reveal">
+          <span class="eyebrow">Core features</span>
+          <h2 class="section-title">Everything your team needs, without the complexity</h2>
+          <p class="section-lead">Standard church presentation duties, done well — plus the one thing no one else offers.</p>
+        </div>
+        <div class="cards-grid">
+          <div class="card reveal">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v1a7 7 0 0 1-14 0v-1"></path><path d="M12 18v4"></path></svg>
+            </div>
+            <h3>Real-time scripture detection</h3>
+            <p>Hears a reference or quoted verse during the sermon and puts the correct verse on screen automatically.</p>
+          </div>
+          <div class="card reveal reveal-d1">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19a4.5 4.5 0 0 0 0-9h-1.8A7 7 0 1 0 4 14.9"></path><path d="M9 21h6"></path><path d="M12 15v6"></path></svg>
+            </div>
+            <h3>Offline-first</h3>
+            <p>No internet dependency mid-service. Detection runs on-device — built for unreliable connectivity.</p>
+          </div>
+          <div class="card reveal reveal-d2">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15Z"></path><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"></path><path d="M9 7h7M9 11h5"></path></svg>
+            </div>
+            <h3>11 Bible translations</h3>
+            <p>Including African-language versions — Luganda, Runyankole, and Swahili — alongside English favorites.</p>
+          </div>
+          <div class="card reveal">
+            <div class="card-icon is-blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="13" rx="2"></rect><path d="M8 21h8M12 16v5"></path></svg>
+            </div>
+            <h3>Multi-monitor &amp; NDI output</h3>
+            <p>Projector, confidence monitor, and streaming output — all from one machine, with native NDI support.</p>
+          </div>
+          <div class="card reveal reveal-d1">
+            <div class="card-icon is-blue">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20a8 8 0 1 1 8-8"></path><path d="M12 12l4.5-4.5"></path><circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"></circle><path d="M17 17l4 4M21 17l-4 4"></path></svg>
+            </div>
+            <h3>Theme manager</h3>
+            <p>A Canva-style visual editor for slides and lower-thirds. Beautiful output with zero design skill required.</p>
+          </div>
+          <div class="card reveal reveal-d2">
+            <div class="card-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5.5v6c0 5 3.4 8.6 8 10.5 4.6-1.9 8-5.5 8-10.5v-6L12 2Z"></path><path d="m9 12 2 2 4-4"></path></svg>
+            </div>
+            <h3>Licensed &amp; supported</h3>
+            <p>Signed activation for your church, real human support, and honest pricing built for the African church market.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="roles">
+      <div class="container">
+        <div class="center reveal">
+          <span class="eyebrow">For your whole team</span>
+          <h2 class="section-title">Built for every role on your team</h2>
+          <p class="section-lead">Sunday morning involves more than the booth. FaithView Pro removes friction for each person in it.</p>
+        </div>
+        <div class="roles-grid">
+          <div class="role-card reveal">
+            <div class="role-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"></path></svg>
+            </div>
+            <h3>Volunteers</h3>
+            <p>No training required. The console shows what's next, and detection fills in the verses — anyone can run it confidently.</p>
+          </div>
+          <div class="role-card reveal reveal-d1">
+            <div class="role-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"></path><circle cx="6" cy="18" r="3"></circle><circle cx="18" cy="16" r="3"></circle></svg>
+            </div>
+            <h3>Worship Leaders</h3>
+            <p>Build the whole song set in minutes, keep every slide on theme, and edit live without panic.</p>
+          </div>
+          <div class="role-card reveal reveal-d2">
+            <div class="role-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v1a7 7 0 0 1-14 0v-1"></path><path d="M12 18v4"></path></svg>
+            </div>
+            <h3>Pastors</h3>
+            <p>Quote any reference, in any of 11 translations — it's on screen before you finish the sentence. Even in Luganda.</p>
+          </div>
+          <div class="role-card reveal reveal-d3">
+            <div class="role-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21v-7M4 10V3M12 21v-9M12 8V3M20 21v-5M20 12V3"></path><path d="M1 14h6M9 8h6M17 16h6"></path></svg>
+            </div>
+            <h3>Tech Team</h3>
+            <p>One Windows machine drives projector, confidence monitor, and NDI. Offline-first, licensed, and supported for real.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="pricing">
+      <div class="container">
+        <div class="center reveal">
+          <span class="eyebrow">Simple pricing</span>
+          <h2 class="section-title">One plan. Everything included.</h2>
+          <p class="section-lead">One visible price beats a hidden one — every feature, every translation, one license for your whole church.</p>
+        </div>
+        <div class="pricing-teaser reveal">
+          <div class="price-card">
+            <span class="price-tier">Standard</span>
+            <div class="price-row"><span class="amount">$100</span><span class="per">/ church / year</span></div>
+            <p class="price-note">Covers every presentation machine in your congregation.</p>
+            <ul class="price-includes">
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1DB954" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Real-time scripture detection, offline</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1DB954" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> All 11 Bible translations, incl. Luganda, Runyankole &amp; Swahili</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1DB954" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Unlimited songs, schedules &amp; themes</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1DB954" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Multi-monitor + NDI streaming output</li>
+              <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1DB954" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Signed activation + real human support</li>
+            </ul>
+            <div class="price-ctas">
+              <a class="btn btn-primary" href="download.html">Start Free Trial</a>
+              <a class="btn btn-outline" href="pricing.html">Full pricing details</a>
+            </div>
+          </div>
+          <p class="price-fineprint">30-day free trial · No credit card required</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="social-proof">
+      <div class="container">
+        <div class="center reveal">
+          <span class="eyebrow">Early pilots</span>
+          <h2 class="section-title">Trusted by congregations like yours</h2>
+          <p class="section-lead">FaithView Pro is being piloted with real congregations. Their words will live here.</p>
+        </div>
+        <!-- TODO: replace with real testimonials from the Rwampara pilot congregation once available — do not ship placeholder text to production -->
+        <div class="placeholder-grid">
+          <div class="quote-placeholder reveal">
+            <span class="ph-tag">// TODO</span>
+            <p>Testimonial from the Rwampara pilot congregation will appear here.</p>
+          </div>
+          <div class="quote-placeholder reveal reveal-d1">
+            <span class="ph-tag">// TODO</span>
+            <p>Testimonial from a volunteer operator will appear here.</p>
+          </div>
+          <div class="quote-placeholder reveal reveal-d2">
+            <span class="ph-tag">// TODO</span>
+            <p>Testimonial from a lead pastor will appear here.</p>
+          </div>
+        </div>
+        <!-- TODO: replace with real pilot numbers (sessions run, verses detected, churches onboarded) once measured -->
+        <div class="stats-placeholder">
+          <div class="stat-placeholder"><div class="value">···</div><div class="label">Sessions run</div></div>
+          <div class="stat-placeholder"><div class="value">···</div><div class="label">Verses detected</div></div>
+          <div class="stat-placeholder"><div class="value">···</div><div class="label">Churches onboarded</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-band">
+      <div class="container">
+        <div class="cta-band-inner reveal">
+          <h2>Less stress. Better Sundays.</h2>
+          <p>Put scripture on screen the moment it's spoken — and give your volunteers a booth they can run with confidence.</p>
+          <a class="btn btn-dark" href="download.html">Start Free Trial</a>
+          <a class="btn btn-outline" style="background:rgba(255,255,255,.85); border-color:rgba(6,43,19,.2); color:#062b13;" href="download.html">Download for Windows</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <svg class="brand-mark" width="30" height="30" viewBox="0 0 64 64" aria-hidden="true">
+              <rect width="64" height="64" rx="14" fill="#1DB954"></rect>
+              <text x="32" y="45" font-family="Manrope, Arial, sans-serif" font-size="36" font-weight="800" fill="#ffffff" text-anchor="middle">F</text>
+            </svg>
+            <span class="brand-name">FaithView <em>Pro</em></span>
+          </a>
+          <p>Offline-first church presentation software with real-time scripture detection. Built for congregations in Uganda and across Africa.</p>
+          <!-- TODO: replace with real social profiles when available -->
+          <div class="footer-social">
+            <a href="#" aria-label="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.5 12 4.5 12 4.5s-7 0-8.9.6A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.6 8.9.6 8.9.6s7 0 8.9-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 23.5 12 31 31 0 0 0 23 7.2ZM9.8 15.5v-7l5.8 3.5-5.8 3.5Z"></path></svg></a>
+            <a href="#" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.2-1.5 1.5-1.5h1.4V4.9c-.3 0-1.2-.1-2.2-.1-2.2 0-3.7 1.3-3.7 3.8V11H8v3h2.5v7h3Z"></path></svg></a>
+            <a href="#" aria-label="X"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.7 3H21l-7.1 8.2L22 21h-6.6l-5.1-6.7L4.3 21H1l7.6-8.8L2 3h6.8l4.6 6.1L17.7 3Zm-1.1 16h1.8L7.8 4.9H5.9L16.6 19Z"></path></svg></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="download.html">Download</a></li>
+            <!-- TODO: add What's New / changelog page -->
+            <li><a href="#">What's New</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="support.html">Documentation</a></li>
+            <li><a href="support.html#getting-started">Getting Started</a></li>
+            <li><a href="support.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <!-- TODO: add About page when ready -->
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year">2026</span> FaithView Pro. All rights reserved.</span>
+        <span>Made for the church, in Uganda.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
